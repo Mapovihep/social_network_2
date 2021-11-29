@@ -1,0 +1,41 @@
+.comment_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(216, 231, 233),rgb(153, 142, 167));
+    margin: 10px auto 0 auto;
+}
+.comment_container:hover{
+    background: linear-gradient(to bottom, rgb(216, 231, 233),rgb(120, 189, 253))
+}
+.button_container{
+    margin: 10px auto;
+    box-shadow: none;
+}
+.button_act{
+    border-radius: 15px;
+}
+.comment_title{
+    display: block;
+    width: 90%;
+    margin:  50px auto;
+    text-align: left;
+}
+.comment_title_input{
+    display: block;
+    margin-left: 5px;
+    width: 90%;
+}
+.comment_author{
+    display: inline-block;
+    width: 40%;
+    font-size: 14px;
+}
+.comment_date_of_creation{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+

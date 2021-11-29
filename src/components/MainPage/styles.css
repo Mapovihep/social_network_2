@@ -1,0 +1,9 @@
+.container_MainPage{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.post_MainPage{
+    width:300px;
+    height: 100%;
+}

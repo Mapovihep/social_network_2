@@ -1,0 +1,51 @@
+.post_card{
+    height: 100%;
+    width: 90vw;
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(to right top, rgb(228, 199, 38),rgb(209, 173, 250))
+}
+.post_card_hovered_part{
+    transition: box-shadow .3s ease-in-out;
+}
+.post_card_hovered_part:hover{
+    box-shadow: 0 0 5px 2px rgb(13, 223, 223) inset;
+    cursor: pointer;
+}
+.post_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post_title{
+    display: block;
+    text-align: left;
+}
+.post_title_input{
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.post_author{
+    display: inline-block;
+    width: 20%;
+    margin-left: auto;
+}
+.post_description_input{
+    border: 1px gray solid;
+    border-radius: 5px;
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.post_description{
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.post_date{
+    display: block;
+    max-width: 50%;
+}

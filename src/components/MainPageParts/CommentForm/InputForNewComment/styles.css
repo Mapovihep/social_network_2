@@ -1,0 +1,6 @@
+.add_comment_input{
+    width: 90%;
+}
+.add_comment_form{
+    flex-direction: column;
+}
